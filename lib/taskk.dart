@@ -40,11 +40,11 @@ double performOperation(double x, double y, String operator) {
       if (y != 0) {
         return x / y;
       } else {
-        return double.nan; // Return NaN for division by zero
+        return double.nan;
       }
     default:
       print("Invalid operator");
-      return double.nan; // Return NaN for invalid operator
+      return double.nan; 
   }
 }
 
